@@ -1,0 +1,22 @@
+# Exclude database files causing permission errors
+data/
+**/mysql/
+**/*.dblwr
+**/*.ibd
+
+# Exclude local environment and temporary files
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude git and CI folders
+.git/
+.github/
+.jenkins/
+
+# Exclude static/media files if you handle them separately
+static/
+media/
